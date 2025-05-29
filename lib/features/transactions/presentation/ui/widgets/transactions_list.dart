@@ -24,9 +24,11 @@ class TransactionsList extends GetView<TransactionsController> {
                     height: 14.w,
                   ),
                   const HorizontalSpace(8),
-                  Text(
-                    model.price,
-                    style: AppTextStyles.font18Text800(context),
+                  Expanded(
+                    child: Text(
+                      model.price,
+                      style: AppTextStyles.font18Text800(context),
+                    ),
                   ),
                 ],
               ),
@@ -39,9 +41,11 @@ class TransactionsList extends GetView<TransactionsController> {
                     height: 14.w,
                   ),
                   const HorizontalSpace(8),
-                  Text(
-                    model.location,
-                    style: AppTextStyles.font12MoreDarkGreyText400(context),
+                  Expanded(
+                    child: Text(
+                      model.location,
+                      style: AppTextStyles.font12MoreDarkGreyText400(context),
+                    ),
                   ),
                 ],
               ),
