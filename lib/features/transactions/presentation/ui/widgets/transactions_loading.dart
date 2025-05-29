@@ -32,7 +32,7 @@ class TransactionsLoading extends StatelessWidget {
               height: 100.h,
             ),
           ),
-          separatorBuilder: (_, __) => const VerticalSpace(14),
+          separatorBuilder: (_, i) => const VerticalSpace(14),
         ),
       ],
     );
