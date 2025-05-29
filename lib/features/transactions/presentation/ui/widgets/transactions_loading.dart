@@ -25,6 +25,7 @@ class TransactionsLoading extends StatelessWidget {
           itemCount: 6,
           itemBuilder: (_, __) => DefaultShimmer(
             child: Container(
+              margin: EdgeInsets.symmetric(horizontal: 34.w),
               decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(14.r),
                   color: Colors.white),

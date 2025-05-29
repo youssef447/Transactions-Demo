@@ -97,7 +97,12 @@ class AppFormField extends StatelessWidget {
         isDense: true,
         prefixIcon: prefixIcon != null
             ? Padding(
-                padding: EdgeInsetsDirectional.only(start: 14.w, end: 8.w),
+                padding: EdgeInsetsDirectional.only(
+                  start: 14.w,
+                  end: 8.w,
+                  top: 12.w,
+                  bottom: 12.w,
+                ),
                 child: prefixIcon,
               )
             : null,
